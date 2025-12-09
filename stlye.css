@@ -1,0 +1,28 @@
+#Map {
+      position: relative;
+      text-align: center;
+      overflow: hidden;
+      margin-top: 30px;
+    }
+
+    #Map img {
+      max-width: 800px; /* image 800px se badi nahi hogi */
+      width: 100%;      /* responsive for small screens */
+      height: auto;
+      display: block;
+      margin: 0 auto;
+    }
+
+    #Map i {
+      position: absolute;
+      font-size: 1.5rem;
+      color: red;
+      cursor: pointer;
+    }
+
+    .container-buttons {
+      padding: 15px;
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
