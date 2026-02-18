@@ -5,6 +5,7 @@ function search() {
     alert("State Empty");
     return;
   }
+  
 
   const flag = document.createElement("i");
   flag.classList.add("bi", "bi-flag-fill", "text-danger", "fs-3");
